@@ -1,0 +1,16 @@
+{
+  "model": "microsoft/resnet-18",
+  "dataset": "MNIST",
+  "split": "test",
+  "samples": 10000,
+  "correct_raw_indices": 1,
+  "accuracy": 0.0001,
+  "accuracy_percent": 0.01,
+  "metric": "raw ImageNet index == MNIST digit label (label spaces differ)",
+  "finetuned": false,
+  "input_shape": [
+    3,
+    224,
+    224
+  ]
+}

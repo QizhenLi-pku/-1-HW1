@@ -1,0 +1,6 @@
+torch
+torchvision
+transformers>=4.40,<5
+huggingface_hub
+Pillow
+tqdm

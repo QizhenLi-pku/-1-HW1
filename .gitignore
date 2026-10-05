@@ -1,0 +1,5 @@
+.venv/
+.venv-hf/
+__pycache__/
+data/
+.cache/
