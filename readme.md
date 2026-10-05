@@ -11,3 +11,10 @@ aloha
    比例为 0.0001，即 0.01%。由于 ImageNet 与 MNIST 的标签
    含义不同，这个结果不代表有效的数字识别准确率。
 5. 我学会了通过 detached HEAD 查看历史提交，再切换回 main。
+6. 我学会了创建 for_fun 分支，并在 main 分支上继续修改。
+   合并时，如果两个分支对同一文件的内容存在冲突，需要手动选择
+   最终保留的内容、删除冲突标记，再通过 git add 和 git commit
+   完成合并。只在提交信息中写“Merge”并不代表真正完成了分支合并。
+7. 我还使用 git switch --detach 查看了最初写入 hello world 的提交，
+   然后通过 git switch main 返回最新版本。git log 用于查看提交历史，
+   git reflog 则记录本地 HEAD 的移动，因此能证明我访问并返回过历史提交。
